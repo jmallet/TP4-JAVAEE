@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TP JAVA EE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>FORMULAIRE LIVRES</h1>
+        <form action="redirection.jsp" method="POST">
+        	<label for="titre"><a style="color:green"> Titre: </a></label>
+        	<input required="required" type="text" name="titre"><br/>
+        	<label for="auteur"><a style="color:green"> Auteur: </a></label>
+        	<input required="required" type="text" name="auteur"><br/>
+        	<label for="annee"><a style="color:green"> Année de parution: </a></label>
+        	<input required="required" type="text" name="annee" pattern="[0-9]{4}"><br/>
+        	<button type="submit">Valider</button>
+        </form>
+    </body>
+</html>
