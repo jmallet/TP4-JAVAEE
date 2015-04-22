@@ -8,7 +8,7 @@ package entity;
 import java.util.List;
 
 /**
- *
+ * interface commandeItf
  * @author ziad
  */
 public interface CommandItf {

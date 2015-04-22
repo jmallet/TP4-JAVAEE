@@ -7,7 +7,7 @@ package entity;
 import javax.ejb.Remote;
 import java.util.List;
 /**
- *
+ *interface BookItf
  * @author ziad
  */
 

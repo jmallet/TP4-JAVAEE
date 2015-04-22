@@ -10,7 +10,7 @@ import javax.ejb.Remote;
 import java.util.List;
 
 /**
- *
+ * interface usersItf
  * @author ziad
  */
   @Remote
