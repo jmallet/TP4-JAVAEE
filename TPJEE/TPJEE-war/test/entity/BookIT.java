@@ -42,13 +42,8 @@ public class BookIT {
      */
     @Test
     public void testGetTitle() {
-        System.out.println("getTitle");
-        Book instance = null;
-        String expResult = "";
-        String result = instance.getTitle();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Book book1 = new Book("title","author",2015);
+        assertEquals("title", book1.getTitle());       
     }
 
     /**
@@ -56,13 +51,8 @@ public class BookIT {
      */
     @Test
     public void testGetAuthor() {
-        System.out.println("getAuthor");
-        Book instance = null;
-        String expResult = "";
-        String result = instance.getAuthor();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Book book1 = new Book("title","author",2015);
+        assertEquals("author", book1.getAuthor());   
     }
 
     /**
@@ -70,13 +60,8 @@ public class BookIT {
      */
     @Test
     public void testGetDate() {
-        System.out.println("getDate");
-        Book instance = null;
-        int expResult = 0;
-        int result = instance.getDate();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Book book1 = new Book("title","author",2015);
+        assertEquals(2015, book1.getDate());   
     }
 
     /**
@@ -84,13 +69,8 @@ public class BookIT {
      */
     @Test
     public void testHashCode() {
-        System.out.println("hashCode");
-        Book instance = null;
-        int expResult = 0;
-        int result = instance.hashCode();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Book book1 = new Book("title","author",2015);
+        assertEquals(110371416, book1.hashCode());   
     }
 
     /**
@@ -98,14 +78,11 @@ public class BookIT {
      */
     @Test
     public void testEquals() {
-        System.out.println("equals");
-        Object object = null;
-        Book instance = null;
-        boolean expResult = false;
-        boolean result = instance.equals(object);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Book book1 = new Book("title","author",2015);
+        Book book2 = new Book("title","author",2015);
+        Book book3 = new Book("aaaaa","aaaaa",2222);
+        assertTrue(book1.equals(book2));
+        assertFalse(book1.equals(book3));
     }
     
 }

@@ -42,26 +42,8 @@ public class CommandIT {
      */
     @Test
     public void testGetTitle() {
-        System.out.println("getTitle");
-        Command instance = null;
-        String expResult = "";
-        String result = instance.getTitle();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of setTitle method, of class Command.
-     */
-    @Test
-    public void testSetTitle() {
-        System.out.println("setTitle");
-        String title = "";
-        Command instance = null;
-        instance.setTitle(title);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Command command1 = new Command("user1", "titre1");
+        assertEquals("titre1",command1.getTitle());
     }
 
     /**
@@ -69,26 +51,9 @@ public class CommandIT {
      */
     @Test
     public void testGetUser() {
-        System.out.println("getUser");
-        Command instance = null;
-        String expResult = "";
-        String result = instance.getUser();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Command command1 = new Command("user1", "titre1");
+        assertEquals("user1",command1.getUser());
     }
 
-    /**
-     * Test of setUser method, of class Command.
-     */
-    @Test
-    public void testSetUser() {
-        System.out.println("setUser");
-        String user = "";
-        Command instance = null;
-        instance.setUser(user);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
     
 }

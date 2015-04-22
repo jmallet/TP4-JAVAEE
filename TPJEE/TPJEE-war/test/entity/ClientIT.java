@@ -42,40 +42,18 @@ public class ClientIT {
      */
     @Test
     public void testGetPseudo() {
-        System.out.println("getPseudo");
-        Client instance = null;
-        String expResult = "";
-        String result = instance.getPseudo();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Client client1 = new Client("pseudo1", "pass");
+        assertEquals("pseudo1", client1.getPseudo());
     }
 
-    /**
-     * Test of setPseudo method, of class Client.
-     */
-    @Test
-    public void testSetPseudo() {
-        System.out.println("setPseudo");
-        String pseudo = "";
-        Client instance = null;
-        instance.setPseudo(pseudo);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
 
     /**
      * Test of getPassword method, of class Client.
      */
     @Test
     public void testGetPassword() {
-        System.out.println("getPassword");
-        Client instance = null;
-        String expResult = "";
-        String result = instance.getPassword();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Client client1 = new Client("pseudo1", "pass");
+        assertEquals("pass", client1.getPassword());
     }
 
     /**
@@ -83,13 +61,8 @@ public class ClientIT {
      */
     @Test
     public void testHashCode() {
-        System.out.println("hashCode");
-        Client instance = null;
-        int expResult = 0;
-        int result = instance.hashCode();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Client client1 = new Client("pseudo1", "pass");
+        assertEquals(-289589709, client1.hashCode());
     }
 
     /**
@@ -97,14 +70,11 @@ public class ClientIT {
      */
     @Test
     public void testEquals() {
-        System.out.println("equals");
-        Object object = null;
-        Client instance = null;
-        boolean expResult = false;
-        boolean result = instance.equals(object);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Client client1 = new Client("pseudo1", "pass");
+        Client client2 = new Client("pseudo1", "pass");
+        Client client3 = new Client("pseudo3", "pass3");
+        assertTrue(client1.equals(client2));
+        assertFalse(client1.equals(client3));
     }
     
 }
