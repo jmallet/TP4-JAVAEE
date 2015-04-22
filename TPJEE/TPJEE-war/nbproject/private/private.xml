@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/web/ex3-index.jsp</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/services/BookService.java</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/servlet/SearchBook.java</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/entity/Command.java</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/entity/Users.java</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/web/index.html</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/web/ex2.jsp</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/web/inscription.jsp</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/services/CommandService.java</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/servlet/AddBook.java</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/servlet/Connexion.java</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/entity/Client.java</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/entity/UsersItf.java</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/entity/Book.java</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/entity/BookRem.java</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/entity/CommandItf.java</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/entity/BookItf.java</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/web/ex3.jsp</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/servlet/Inscription.java</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/entity/Commands.java</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/web/aaddBookForm.jsp</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/servlet/Authors.java</file>
+            <file>file:/home/ziad/Bureau/CAR/TPJEE/TPJEE-war/src/java/services/User.java</file>
+        </group>
+    </open-files>
+</project-private>
